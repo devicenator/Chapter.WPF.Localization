@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject />
+    <Authors>David Wendland</Authors>
+    <PackageId>SniffCore.Localizer</PackageId>
+    <Product>SniffCore.Localizer</Product>
+    <Description>Provides objects and helpers for an easy localization of the WPF application.</Description>
+    <Copyright>Copyright (c) 2021 David Wendland</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>http://www.sniffcore.com</PackageProjectUrl>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/devicenator/SniffCore.Localizer</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\SniffCore.Localizer.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

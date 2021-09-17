@@ -10,7 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 * Maintain current language
 * Maintain current culture
 * Maintain fallbacks
-* Translator
+* Named placeholders in XAML
 
 ## [Unreleased]
 
+## [0.0.1] - 2021-09-17
+### Added
+* Translator to load and format translations

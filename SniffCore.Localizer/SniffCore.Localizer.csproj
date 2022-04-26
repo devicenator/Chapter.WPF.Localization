@@ -10,7 +10,7 @@
     <PackageId>SniffCore.Localizer</PackageId>
     <Product>SniffCore.Localizer</Product>
     <Description>Provides objects and helpers for an easy localization of the WPF application.</Description>
-    <Copyright>Copyright (c) 2021 David Wendland</Copyright>
+    <Copyright>Copyright (c) 2022 David Wendland</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>http://www.sniffcore.com</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>

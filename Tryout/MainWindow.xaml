@@ -1,0 +1,26 @@
+﻿<Window x:Class="Tryout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Localizer="clr-namespace:SniffCore.Localizer;assembly=SniffCore.Localizer"
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
+
+    <DockPanel>
+        <Button DockPanel.Dock="Bottom" Content="Swap" Click="SwapNames" />
+        <ListBox ItemsSource="{Binding Patients}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Localizer:FormatterTextBlock Formatter="{DynamicResource NameFormatter}">
+                        <Localizer:FormatterPair Replace="{}{firstName}" With="{Binding FirstName}" />
+                        <Localizer:FormatterPair Replace="{}{lastName}" With="{Binding LastName}" />
+                    </Localizer:FormatterTextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+
+</Window>

@@ -16,7 +16,7 @@
     <PackageIcon>Icon.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/devicenator/SniffCore.Localizer</RepositoryUrl>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

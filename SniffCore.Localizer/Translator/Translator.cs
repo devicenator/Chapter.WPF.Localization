@@ -5,6 +5,8 @@
 
 using System.Windows;
 
+// ReSharper disable once CheckNamespace
+
 namespace SniffCore.Localizer
 {
     /// <summary>
@@ -110,7 +112,7 @@ namespace SniffCore.Localizer
         /// <returns>The translation with the formattings.</returns>
         public static string Format(string translation, params string[] formattings)
         {
-            for (int i = 0, j = 1; j < formattings.Length; ++i, ++j)
+            for (int i = 0, j = 1; j < formattings.Length; i += 2, j += 2)
                 translation = translation.Replace(formattings[i], formattings[j]);
             return translation;
         }

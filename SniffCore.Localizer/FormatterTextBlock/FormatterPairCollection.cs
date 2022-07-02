@@ -7,12 +7,11 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace SniffCore.Localizer
+namespace SniffCore.Localizer;
+
+/// <summary>
+///     The collection of formatter pairs for the <see cref="FormatterTextBlock" />.
+/// </summary>
+public class FormatterPairCollection : FreezableCollection<FormatterPair>
 {
-    /// <summary>
-    ///     The collection of formatter pairs for the <see cref="FormatterTextBlock" />.
-    /// </summary>
-    public class FormatterPairCollection : FreezableCollection<FormatterPair>
-    {
-    }
 }

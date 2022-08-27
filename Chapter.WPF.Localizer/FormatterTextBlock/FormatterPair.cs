@@ -8,7 +8,7 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace SniffCore.Localizer;
+namespace Chapter.WPF.Localizer;
 
 /// <summary>
 ///     Represents a replace pair within the <see cref="FormatterTextBlock" />.

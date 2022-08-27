@@ -1,11 +1,11 @@
-SniffCore.Localizer
+Chapter.WPF.Localizer
 ===
 
 Provides objects and helpers for an easy localization of the WPF application.
 
 ## Links
-* [NuGet](https://www.nuget.org/packages/SniffCore.Localizer)
-* [GitHub](https://github.com/devicenator/SniffCore.Localizer)
+* [NuGet](https://www.nuget.org/packages/Chapter.WPF.Localizer)
+* [GitHub](https://github.com/devicenator/Chapter.WPF.Localizer)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.  

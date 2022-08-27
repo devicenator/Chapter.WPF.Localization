@@ -7,7 +7,7 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace SniffCore.Localizer;
+namespace Chapter.WPF.Localizer;
 
 /// <summary>
 ///     Provides ways to load translations from the application resources.

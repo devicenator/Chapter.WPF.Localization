@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 ### Changed
 * Renamed to Chapter.WPF.Localization
+### Added
+* Added Localizer to get and set the current application culture and language with events
 
 ## [1.0.2] - 2022-08-27
 ### Changed

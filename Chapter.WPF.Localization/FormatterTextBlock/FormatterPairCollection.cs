@@ -7,7 +7,7 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.WPF.Localizer;
+namespace Chapter.WPF.Localization;
 
 /// <summary>
 ///     The collection of formatter pairs for the <see cref="FormatterTextBlock" />.

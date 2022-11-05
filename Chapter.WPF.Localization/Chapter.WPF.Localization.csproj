@@ -8,10 +8,10 @@
     <Company>my-libraries</Company>
     <Description>Provides objects and helpers for an easy localization of the WPF application.</Description>
     <Copyright>Copyright (c) 2022 David Wendland</Copyright>
-    <PackageProjectUrl>https://github.com/devicenator/Chapter.WPF.Localizer</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/devicenator/Chapter.WPF.Localization</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/devicenator/Chapter.WPF.Localizer</RepositoryUrl>
+    <RepositoryUrl>https://github.com/devicenator/Chapter.WPF.Localization</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 

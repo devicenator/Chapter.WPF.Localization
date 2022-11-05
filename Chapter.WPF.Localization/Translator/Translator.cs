@@ -7,7 +7,7 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.WPF.Localizer;
+namespace Chapter.WPF.Localization;
 
 /// <summary>
 ///     Provides ways to load translations from the application resources.
@@ -18,7 +18,7 @@ namespace Chapter.WPF.Localizer;
 /// <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 ///                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 ///                     xmlns:system="clr-namespace:System;assembly=System.Runtime"
-///                     xmlns:translations="clr-namespace:DocSniff.Common.Translations">
+///                     xmlns:translations="clr-namespace:MyApplication.Common.Translations">
 /// 
 ///     <system:String x:Key="Something">something [VERSION]</system:String>
 /// 

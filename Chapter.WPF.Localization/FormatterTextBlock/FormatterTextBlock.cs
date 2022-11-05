@@ -14,7 +14,7 @@ using System.Windows.Markup;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.WPF.Localizer;
+namespace Chapter.WPF.Localization;
 
 /// <summary>
 ///     Formats the given translation.

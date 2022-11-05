@@ -1,11 +1,11 @@
-Chapter.WPF.Localizer
+Chapter.WPF.Localization
 ===
 
 Provides objects and helpers for an easy localization of the WPF application.
 
 ## Links
-* [NuGet](https://www.nuget.org/packages/Chapter.WPF.Localizer)
-* [GitHub](https://github.com/devicenator/Chapter.WPF.Localizer)
+* [NuGet](https://www.nuget.org/packages/Chapter.WPF.Localization)
+* [GitHub](https://github.com/devicenator/Chapter.WPF.Localization)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.  
